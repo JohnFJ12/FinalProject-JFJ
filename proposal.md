@@ -10,7 +10,7 @@ A discord chatbot that helps you solve Calculus 3 related problems such as Tripl
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-
+I will be able to get Triple Integrals, Double Integrals, Partial Derivatives and Gradient Vectors solved with my chatbot and it will show all the steps that where taken to find the solution ALONG WITH explanations behind each step. Cortex will also be able to take in word problems with restrictions also translate between normal to spherical or cylindrical. I will also show the integral symbol and the derivative and partial derivative using as much as realistic graphics to show the integral symbols and the partial derivatives. In relation to the graphics that I hope to add using the library MathJax to make everything print out more eloquently. Also, as an additional challenge I hope to use graphs to show work as I change the bounds from normal to spherical or cylindrical.
 
 
 
@@ -42,4 +42,4 @@ I will be able to get Triple Integrals, Double Integrals, Partial Derivatives an
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
-TODO
+My next steps would be reviewing every single topic that I outlined cortex would be able to solve. I will be looking into how to program a chatbot on discord specifically as I don't know how I would incorporate my code into the bot yet. As for the code itself I plan on studying any possible math libraries that may be of assistance. In relation to the graphics that I hope to add use the library MathJax to make everything print out more eloquently. Also, as an additional challenge I hope to use graphs to show work as I change the bounds from normal to spherical or cylindrical.
