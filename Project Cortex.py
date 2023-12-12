@@ -97,13 +97,13 @@ def calculatorcallers():
          typingsimu.typing("\n",cortexTextbox)
          typingsimu.typing("\n",cortexTextbox)
          typingsimu.typing("because he had NOBODY to go with, LOLOLOLOLOLOLOLOL ",cortexTextbox)
-     elif "integral" in uihelper.lower():
+    elif "integral" in uihelper.lower():
          cortexTextbox.delete(1.0, "end-1c")
          uiTextbox.delete(1.0, "end-1c")
          typingsimu.typing("Alright, Let me redirect you to the integral calculator page. One Second.....",cortexTextbox)
          typingsimu.typing(".........Redirecting",cortexTextbox)
          integralui()
-     elif "dot product" in uihelper.lower():
+    elif "dot product" in uihelper.lower():
          cortexTextbox.delete(1.0, "end-1c")
          uiTextbox.delete(1.0, "end-1c")
          typingsimu.typing("Alright, Let me redirect you to the integral calculator page. One Second.....",cortexTextbox)
