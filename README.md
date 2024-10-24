@@ -2,7 +2,7 @@
 Modules: Basically just incorporated heavily the Tkinter Module and the Sympy Module. Incorporated integrate, parser_expr and cross, dot and matrixes from sympy. From Tkinter I learned heavily how to create a window and close it but at the same time create a new one
 with just the use of a button created with tkinter. I also incorporated the tkinter.Label, tkinter.Tk() to create a new window and tkinter.attributes to be able to full screen the window. Tkinter.Text was also important because it allowed me to create a space where I could retrieve the user input easily.
 
-Problem 1: Latex wasn’t exactly compliant with a Tkinter TextBox LOL
+Problem 1: Latex wasn’t exactly compliant with a Tkinter TextBox 
 
 I believed that I would be
 able to print formatted integrals in a tkinter label I was not so wrong but
