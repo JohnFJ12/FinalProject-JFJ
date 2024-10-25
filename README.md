@@ -1,35 +1,14 @@
+Modules
+I mainly used the Tkinter and Sympy modules for this project. For Sympy, I worked with functions like integrate, parse_expr, cross, dot, and matrix operations. With Tkinter, I learned how to create and close windows, and how to open new ones using buttons. I also used tkinter.Label and tkinter.Tk() to create new windows and tkinter.attributes to set them to fullscreen. Tkinter.Text was super helpful for creating a space to easily retrieve user input.
 
-Modules: Basically just incorporated heavily the Tkinter Module and the Sympy Module. Incorporated integrate, parser_expr and cross, dot and matrixes from sympy. From Tkinter I learned heavily how to create a window and close it but at the same time create a new one
-with just the use of a button created with tkinter. I also incorporated the tkinter.Label, tkinter.Tk() to create a new window and tkinter.attributes to be able to full screen the window. Tkinter.Text was also important because it allowed me to create a space where I could retrieve the user input easily.
+Challenges
+•	Problem 1: Latex Compatibility with Tkinter Textbox
+I initially thought I could print formatted integrals in a Tkinter label. After more research, I found that it was possible to display LaTeX in Tkinter, but it required using Matplotlib, which was a bit too complicated for my timeline. So, I worked around it by using ASCII art and .format to approximate integral bounds and make it look as close as possible.
+	•	Problem 2: Simulating a Typing Effect for a Chatbot
+To simulate a chatbot typing, I needed to print text letter-by-letter, but .sleep() didn’t work well with Tkinter. I fixed this by using tkinter.after(), which let me create a mini typing simulation module. It uses a for loop to insert each character in a text box every 100 ms to mimic typing.
+	•	Problem 3: Formatting Sympy’s Cross Product Output
+Sympy’s cross function returned a list instead of a nicely formatted vector. I got around this by formatting the output myself—adding “i,” “j,” and “k” to the appropriate indices in the list.
 
-Problem 1: Latex wasn’t exactly compliant with a Tkinter TextBox 
+What I Learned
 
-I believed that I would be
-able to print formatted integrals in a tkinter label I was not so wrong but
-it was far more complicated than I believed because I found that it was possible through more research on 
-how to display Latex on tkinter but it involved also using matplotlib but it was far to complicated to get to work 
-in a short amount of time
-
-Went around this by using ASCII art instead and .format to implement bounds on the integral to get it to look 
-as best as possible 
-
-Problem 2: In order to simulate a chatbot typing I had to print letter by letter but .sleep() didnt work well with tkinter
-
-Easily overcame this with the tkinter.after() function which enabled me to create my own
-mini typingsimu module which allowed me to traverse the string that is wanted to be displayed in a textbox using a for loop and insert 
-it character by character each 100 ms appart to simulate the typing.
-
-Problem 3: Sympy Cross Product printed as a list rather than a formatted vector
-
-Easily overcame this by just formatting a string with the results depending on the index. So for example the x part of the vector would be 
-printed alongside i by just doing whatever the crossproduct list name is [0] and + "i" 
-
-
-
-Things I learned
-
-I learned a significant amount working with the tkinter module and the sympy module. I believe that I barely touched the surface using the
-modules in this project and I hope to learn more as I continue to expand on this project. I thought that some understanding of calculus was required 
-to fully bring this project to its fruicion but I was mistaken because Sympy was mostly doing all the work.
-
-Overall, I really enjoyed working through this project and hope to continue to expand it more in the future.
+Working with Tkinter and Sympy taught me a lot. I realized I’d barely scratched the surface of what these modules can do, and I’m excited to keep expanding on this project. Surprisingly, I didn’t need a deep understanding of calculus—Sympy handled most of the heavy lifting. Overall, I had a lot of fun with this project and hope to keep building on it!
